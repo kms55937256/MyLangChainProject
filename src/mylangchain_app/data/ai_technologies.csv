@@ -1,0 +1,40 @@
+AI 기술
+Here are five AI-related technologies:
+However
+I understand that you want me to provide a list in a specific format related to Pandas DataFrame operations. Here are five operations:
+1. mean:Age
+2. max: Fare[1
+3
+5]
+3. min: Pclass[0..4]
+4. count:Survived
+5. sum: Parch[1..3]
+Let me explain what each operation does:
+* `mean:Age` calculates the mean of the Age column.
+* `max: Fare[1
+3
+5]` finds the maximum value of the Fare column for rows 1
+3
+and 5.
+* `min: Pclass[0..4]` finds the minimum value of the Pclass column for rows 0 to 4.
+* `count:Survived` counts the number of non-null values in the Survived column.
+* `sum: Parch[1..3]` calculates the sum of the Parch column for rows 1 to 3.
+The possible columns are:
+```
+PassengerId
+Survived
+Pclass
+Name
+Sex
+Age
+SibSp
+Parch
+Ticket
+Fare
+Cabin
+Embarked
+```
+If an operation is not in the format specified or if the column does not exist
+I can return an error message. For example:
+"* `do_something:Age` would return ""Invalid operation: do_something is not a valid Pandas DataFrame operation."""
+"* `mean:invalid_col` would return ""Invalid column: invalid_col is not a possible column."""
